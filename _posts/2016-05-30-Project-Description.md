@@ -4,9 +4,8 @@ title: Project Description
 comments: true
 category: portfolio
 tags:
-    - web-development
-    - jekyll
-    - theme
+    - Djiango
+    - Data Source
 ---
 
 ## Idea ##
