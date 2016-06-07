@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Run context4news project 
+Author: Xiangting Fan
 comments: true
 category: portfolio
 tags:
@@ -27,7 +28,7 @@ Then within the folder where you copied the database dump run:
 psql -U postgres -d newsdb < newsdb.dump
 
 The tables are :
-<img src="/assets/newsdb.jpg" width="700px" />
+<img src="/assets/newsdb.jpg" width="400px" />
 
 And we can check the information in the table "articles_article":
 <img src="/assets/article.jpg" width="1000px" />
