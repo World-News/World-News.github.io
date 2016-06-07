@@ -20,6 +20,7 @@ layout: post title: Project description comments: true category: portfolio tags:
 
 * A referendum is being held on Thursday, 23 June to decide whether Britain should leave or remain in the European Union. A British may want to know how European or people in other countries think about it.
 
+<img src="/_assets/img/bbc.png" width="200px" />
 
 ## Data Sources ## 
 
