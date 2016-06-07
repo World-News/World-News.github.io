@@ -33,8 +33,8 @@ And we can check the information in the table "articles_article":
 <img src="/assets/article.jpg" width="1000px" />
 
 ### Edit Function file ###
-This project can get the news from RSS Feeds. First we need to edit funciton.py file based on the news html. Because different 
-websites might use differents tags/class in their html.
+This project can get the news from RSS Feeds. First we need to edit funciton.py file based on the news html. Because different websites might use differents tags/class in their html.
+
 <img src="/assets/function.jpg" width="700px" />
 
 
