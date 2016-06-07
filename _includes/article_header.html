@@ -3,6 +3,7 @@
     <time datetime="{{ page.date | date: '%d %m %Y' }}">
         {{ page.date | date: "%d %B, %Y" }}
     </time>
+    <p class="author">Published by <span>{{ page.Author }}</span></p>
     <span> | </span>
     <a class="comment_count" href="{{ site.baseurl }}{{ page.url }}#disqus_thread" data-disqus-identifier="{{ page.id }}"></a>
 </header>
