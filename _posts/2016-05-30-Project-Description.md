@@ -19,45 +19,22 @@ Nowadays, people’s lifestyles are influenced by globalization. People not only
 
 layout: post title: Project description comments: true category: portfolio tags: - web-development - jekyll - theme — * When a controversial call happened during a football match between two clubs from England and Spain, what are the opinions on it of the fans of the two clubs?
 
+* A referendum is being held on Thursday, 23 June to decide whether Britain should leave or remain in the European Union. A British may want to know how European or people in other countries think about it.
 
-<p class="highlighter-header">JAVA</p>
-{% highlight java linenos %}
-/*
-  Get Tail Map from Java TreeMap example
-  This Java Example shows how to get the portion of TreeMap whose keys
-  are grater than or equal to the specified key using tailMap method
-  of Java TreeMap class.
-*/
 
-import java.util.SortedMap;
-import java.util.TreeMap;
+## Data Sources ## 
 
-public class GetTailMapFromTreeMapExample {
+UK：
+* BBC: http://feeds.bbci.co.uk/news/rss.xml?edition=uk * Reuters News: http://www.reuters.com/tools/rss
 
-  public static void main(String[] args) {
+China:
+* Sina: http://rss.sina.com.cn/news/index.shtml * Global Times: http://rss.huanqiu.com/
 
-    //create TreeMap object
-    TreeMap treeMap = new TreeMap();
+Japan:
+* Kyodo News: http://www.kyodonews.jp/
 
-    //add key value pairs to TreeMap
-    treeMap.put("1","One");
-    treeMap.put("3","Three");
+France：
+* AFP: https://www.afp.com
 
-    /*
-      To get a Tail Map from Java TreeMap use,
-      SortedMap tailMap(Object fromKey) method of Java TreeMap class.
 
-      Please note that, the SortedMap returned by this method is backed by
-      the original TreeMap. So any changes made to SortedMap will be
-      reflected back to original TreeMap.
-    */
-
-    SortedMap sortedMap = treeMap.tailMap("2");
-
-    System.out.println("Tail Map Contains : " + sortedMap);
-  }
-}
-{% endhighlight %}
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
-
+## Technologies ##
