@@ -39,5 +39,5 @@ France：
 
 ## Technologies ##
 
-<img src="/_assets/technologies.png" />
+<img src="/assets/technologies.png" width="700px" />
 
