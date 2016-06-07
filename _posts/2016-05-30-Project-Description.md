@@ -38,3 +38,6 @@ France：
 
 
 ## Technologies ##
+
+<img src="/_assets/technologies.png" />
+
