@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Project Description
+Author: Jiandong Wang
 comments: true
 Author: Jiandong Wang
 category: portfolio
