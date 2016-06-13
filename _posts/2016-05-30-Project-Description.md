@@ -2,6 +2,7 @@
 layout: post
 title: Project Description
 comments: true
+Author: Jiandong Wang
 category: portfolio
 tags:
     - Djiango
