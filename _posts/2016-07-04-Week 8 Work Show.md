@@ -26,28 +26,28 @@ And we implemented the user register and login. We know user login is not a big 
  
 We made a fews changes on our app interface, like defining the positions of the date and news resources and discussed how to deal with news with or without pictures.
 
-
+<img src="/assets/AndroidInterface.png" width="700px" />
 **More data resources adopted**
 
 At the moment, we are collecting data from the following RSS:
-* China Daily
-* BBC News
-* New York Times (new)
-* Reuters (new)
-* Sina (new)
-* People Daily (new)
+China Daily  
+BBC News  
+New York Times (new)  
+Reuters (new)  
+Sina (new)  
+People Daily (new)
 
 But we also faced some issues in collecting news from some data resources which we decided to adopt at the very beginning of this project. I will discuss it in 'Next Steps and New Issues Raise'.
-
+<img src="/assets/RSS.png" width="700px" />
 ** Translation** 
 
-The translation has implemented by Google Translate API.
-- Not Free. Google Translate API is only available as a paid service
-- Usage Linits. Google Translate API has default limits of 2 million characters/day and 10,000 characters per 100 seconds (average 100 characters/second).
-But, Goole offer a 60 day free trial.
-- Access to all Cloud Platform Products
-- $300 credit for free
-- No autocharge after free trial ends
+The translation has implemented by Google Translate API.  
+- Not Free. Google Translate API is only available as a paid service  
+- Usage Linits. Google Translate API has default limits of 2 million characters/day and 10,000 characters per 100 seconds (average 100 characters/second).  
+But, Goole offer a 60 day free trial.  
+- Access to all Cloud Platform Products  
+- $300 credit for free  
+- No autocharge after free trial ends   
 In addition, we are aslo trying to adopt other translate APIs and compare the translation qualities. But at this stage, Google Translate API is enough for our project.  But 
 
 ** Encoding Issues** 
@@ -73,9 +73,9 @@ And this issue is more serious than the encoding issue we mentioned before, whic
 At the very begining of this project, we defined some news agencies as our data resources. But when we was trying to collect the news, we found that some of them have already stopped RSS services and some xml or html structrues are too complex to analyze. 
 So we have to replace those resources without update or with complex structures and we are trying to find some new news agencies as our data resources.    
 
-<img src="/assets/AndroidInterface.png" width="700px" />
 
-<img src="/assets/RSS.png" width="700px" />
+
+
 
 
 
