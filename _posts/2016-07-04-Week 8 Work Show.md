@@ -25,7 +25,7 @@ And we implemented the user register and login. We know user login is not a big 
 **A few changes on Android app interface**
  
 We made a fews changes on our app interface, like defining the positions of the date and news resources and discussed how to deal with news with or without pictures.
-<img src="/assets/AndroidInterface.png" width="700px" />
+
 
 **More data resources adopted**
 
@@ -36,7 +36,7 @@ At the moment, we are collecting data from the following RSS:
 * Reuters (new)
 * Sina (new)
 * People Daily (new)
-<img src="/assets/RSS.png" width="700px" />
+
 But we also faced some issues in collecting news from some data resources which we decided to adopt at the very beginning of this project. I will discuss it in 'Next Steps and New Issues Raise'.
 
 ** Translation** 
@@ -73,7 +73,9 @@ And this issue is more serious than the encoding issue we mentioned before, whic
 At the very begining of this project, we defined some news agencies as our data resources. But when we was trying to collect the news, we found that some of them have already stopped RSS services and some xml or html structrues are too complex to analyze. 
 So we have to replace those resources without update or with complex structures and we are trying to find some new news agencies as our data resources.    
 
+<img src="/assets/AndroidInterface.png" width="700px" />
 
+<img src="/assets/RSS.png" width="700px" />
 
 
 
