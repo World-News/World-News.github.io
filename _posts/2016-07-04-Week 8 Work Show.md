@@ -26,7 +26,8 @@ And we implemented the user register and login. We know user login is not a big 
  
 We made a fews changes on our app interface, like defining the positions of the date and news resources and discussed how to deal with news with or without pictures.
 
-<img src="/assets/AndroidInterface.png" width="700px" />
+<img src="/assets/AndroidInterface.png" width="700px" />  
+
 **More data resources adopted**
 
 At the moment, we are collecting data from the following RSS:
@@ -37,7 +38,7 @@ Reuters (new)
 Sina (new)  
 People Daily (new)
 
-But we also faced some issues in collecting news from some data resources which we decided to adopt at the very beginning of this project. I will discuss it in 'Next Steps and New Issues Raise'.
+But we also faced some issues in collecting news from some data resources which we decided to adopt at the very beginning of this project. I will discuss it in *Next Steps and New Issues Raise*.
 <img src="/assets/RSS.png" width="700px" />
 ** Translation** 
 
@@ -48,13 +49,13 @@ But, Goole offer a 60 day free trial.
 - Access to all Cloud Platform Products  
 - $300 credit for free  
 - No autocharge after free trial ends   
-In addition, we are aslo trying to adopt other translate APIs and compare the translation qualities. But at this stage, Google Translate API is enough for our project.  But 
+In addition, we are aslo trying to adopt other translate APIs and compare the translation qualities. But at this stage, Google Translate API is enough for our project.
 
 ** Encoding Issues** 
 
 We fix the encoding issue with json format and we can show the text with no garbled text on Android app now.
 
-###Next Steps and New Issues Raise  ###
+### Next Steps and New Issues Raise  ###
 
 ** keywords optimizing ** 
 For now we adopt a method from NLTK library to extract keywords from news articles. But it often produced stange words and also the accuracy is not good enough. 
