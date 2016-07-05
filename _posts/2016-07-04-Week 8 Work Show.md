@@ -39,7 +39,8 @@ Sina (new)
 People Daily (new)
 
 But we also faced some issues in collecting news from some data resources which we decided to adopt at the very beginning of this project. I will discuss it in *Next Steps and New Issues Raise*.
-<img src="/assets/RSS.png" width="700px" />
+<img src="/assets/RSS.png" width="700px" />  
+
 ** Translation** 
 
 The translation has implemented by Google Translate API.  
