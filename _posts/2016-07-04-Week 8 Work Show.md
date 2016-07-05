@@ -1,6 +1,6 @@
 ---
 layout: post
-title: week4 
+title: week 8 Work Show 
 Author: Jiandong Wang
 comments: true
 category: portfolio
@@ -14,7 +14,7 @@ This blog shows the process of our project after  Interim Presentation.
 
 
 
-###Progress and Fixed Issues
+### Progress and Fixed Issues  ###
 
 **Front-end & Back-end Comunications implemented**
 
@@ -26,16 +26,19 @@ And we implemented the user register and login. We know user login is not a big 
  
 We made a fews changes on our app interface, like defining the positions of the date and news resources and discussed how to deal with news with or without pictures.
 <img src="/assets/AndroidInterface.png" width="700px" />
-** More data resources adopted **
+
+**More data resources adopted**
+
 At the moment, we are collecting data from the following RSS:
--China Daily
--BBC News
--New York Times (new)
--Reuters (new)
--Sina (new)
--People Daily (new)
+* China Daily
+* BBC News
+* New York Times (new)
+* Reuters (new)
+* Sina (new)
+* People Daily (new)
 <img src="/assets/RSS.png" width="700px" />
 But we also faced some issues in collecting news from some data resources which we decided to adopt at the very beginning of this project. I will discuss it in 'Next Steps and New Issues Raise'.
+
 ** Translation** 
 
 The translation has implemented by Google Translate API.
@@ -48,10 +51,12 @@ But, Goole offer a 60 day free trial.
 In addition, we are aslo trying to adopt other translate APIs and compare the translation qualities. But at this stage, Google Translate API is enough for our project.  But 
 
 ** Encoding Issues** 
+
 We fix the encoding issue with json format and we can show the text with no garbled text on Android app now.
 
-###Next Steps and New Issues Raise
-** keywords optimizing** 
+###Next Steps and New Issues Raise  ###
+
+** keywords optimizing ** 
 For now we adopt a method from NLTK library to extract keywords from news articles. But it often produced stange words and also the accuracy is not good enough. 
 We are planning to find new methods and try to overwrite them to improve the accuracy.
 
