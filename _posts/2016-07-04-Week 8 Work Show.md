@@ -41,7 +41,7 @@ People Daily (new)
 But we also faced some issues in collecting news from some data resources which we decided to adopt at the very beginning of this project. I will discuss it in *Next Steps and New Issues Raise*.
 <img src="/assets/RSS.png" width="700px" />  
 
-** Translation** 
+**Translation** 
 
 The translation has implemented by Google Translate API.  
 - Not Free. Google Translate API is only available as a paid service  
@@ -50,28 +50,33 @@ But, Goole offer a 60 day free trial.
 - Access to all Cloud Platform Products  
 - $300 credit for free  
 - No autocharge after free trial ends   
+
+* Unordered list can use asterisks
+- Or minuses
++ Or pluses
+
 In addition, we are aslo trying to adopt other translate APIs and compare the translation qualities. But at this stage, Google Translate API is enough for our project.
 
-** Encoding Issues** 
+**Encoding Issues**
 
 We fix the encoding issue with json format and we can show the text with no garbled text on Android app now.
 
 ### Next Steps and New Issues Raise  ###
 
-** keywords optimizing ** 
+**keywords optimizing** 
 For now we adopt a method from NLTK library to extract keywords from news articles. But it often produced stange words and also the accuracy is not good enough. 
 We are planning to find new methods and try to overwrite them to improve the accuracy.
 
-** Matching ** 
+**Matching** 
 Matching would be next step once we find a better way to extract keywords because calculating the similarities of keywords is the first step of matching based on our discussion results.
 
-** picture positions in article**
+**picture positions in article**
 
-** new encoding issues **
+**new encoding issues**
 As I said before, when we were collecting data from some resources, like People Daily, sometimes we could get all correct text but sometimes the text we grabed was totally garbled text. 
 And this issue is more serious than the encoding issue we mentioned before, which some special characters would become garbled text. We are discussing how to fix this or in the worest case we have to give up some RSS resources.
   
-** new data resources needed **
+**new data resources needed**
 At the very begining of this project, we defined some news agencies as our data resources. But when we was trying to collect the news, we found that some of them have already stopped RSS services and some xml or html structrues are too complex to analyze. 
 So we have to replace those resources without update or with complex structures and we are trying to find some new news agencies as our data resources.    
 
