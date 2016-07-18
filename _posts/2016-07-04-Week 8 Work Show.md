@@ -31,11 +31,12 @@ We made a fews changes on our app interface, like defining the positions of the 
 **More data resources adopted**
 
 At the moment, we are collecting data from the following RSS:
-* China Daily
-* BBC News
-* New York Times (new)
-* Reuters (new)
-* Sina (new)
+
+* China Daily  
+* BBC News  
+* New York Times (new)  
+* Reuters (new)  
+* Sina (new)  
 * People Daily (new)
 
 But we also faced some issues in collecting news from some data resources which we decided to adopt at the very beginning of this project. I will discuss it in *Next Steps and New Issues Raise*.
@@ -45,9 +46,11 @@ But we also faced some issues in collecting news from some data resources which 
 
 The translation has implemented by Google Translate API.  
 
-* Not Free. Google Translate API is only available as a paid service
+* Not Free. Google Translate API is only available as a paid service  
 * Usage Linits. Google Translate API has default limits of 2 million characters/day and 10,000 characters per 100 seconds (average 100 characters/second).  
+
 But, Goole offer a 60 day free trial.
+
 * Access to all Cloud Platform Products  
 * $300 credit for free  
 * No autocharge after free trial ends   
