@@ -44,16 +44,14 @@ But we also faced some issues in collecting news from some data resources which 
 **Translation** 
 
 The translation has implemented by Google Translate API.  
-- Not Free. Google Translate API is only available as a paid service  
-- Usage Linits. Google Translate API has default limits of 2 million characters/day and 10,000 characters per 100 seconds (average 100 characters/second).  
-But, Goole offer a 60 day free trial.  
-- Access to all Cloud Platform Products  
-- $300 credit for free  
-- No autocharge after free trial ends   
 
-* Unordered list can use asterisks
-- Or minuses
-+ Or pluses
+* Not Free. Google Translate API is only available as a paid service  
+* Usage Linits. Google Translate API has default limits of 2 million characters/day and 10,000 characters per 100 seconds (average 100 characters/second).  
+But, Goole offer a 60 day free trial.
+
+* Access to all Cloud Platform Products  
+* $300 credit for free  
+* No autocharge after free trial ends   
 
 In addition, we are aslo trying to adopt other translate APIs and compare the translation qualities. But at this stage, Google Translate API is enough for our project.
 
