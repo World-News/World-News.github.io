@@ -1,0 +1,46 @@
+---
+layout: post
+title: week 10 match section 
+Author: Songtong Song
+comments: true
+category: portfolio
+tags:
+    - Match 
+    - TF-IDF Weight
+    - Cosine Similarity Measure
+---
+
+**Our Match procedures**
+1. Find keywords of news documents through applying TF-IDF
+2. Combine keywords from two news into one set
+3. Generate word frequency vectors
+4. Calculate similarity between two news based on vectors.
+
+
+**TF-IDF Weight**
+
+In contrast to plain Boolean retrieval where -in principle - only the presence of terms in documents needs to be recorded in the index,
+a term can also be assigned a weight that expresses its importance for a particular document. A commonly used term weighting method is 
+tf-idf, which assigns a high weight to a term, if it occurs frequently in the document but rarely in the whole document collection. 
+Contrarily, a term that occurs in nearly all documents has hardly any discriminative power and is given a low weight, which is usually true for 
+stopwords like determiners, but also for collection-specific terms; think of apparatus, method or claim in a corpus of patent documents. 
+For calculating the tf-idf weight of a term in a particular document, it is necessary to know two things: how often does it occur in the 
+document (term frequency = tf), and in how many documents of the collection does it appear (document frequency = df). Take the inverse of 
+the document frequency (= idf) and you have both components to calculate the weight by multiplying tf by idf. In practice, the inverse 
+document frequency is calculated as the logarithm (base 10) of the quotient of the total number of documents (N) and the document frequency in order 
+to scale the values.
+<img src="/assets/tf-idf.png" width="700px" /> 
+
+**Cosine Similarity Measure**
+
+To avoid the bias caused by different document lengths, a common way to compute the similarity of two documents is using the cosine 
+similarity measure. The inner product of the two vectors (sum of the pairwise multiplied elements) is divided by the product of their 
+vector lengths. This has the effect that the vectors are normalized to unit length and only the angle, more precisely the cosine of the 
+angle, between the vectors accounts for their similarity.
+<img src="/assets/cosine.png" width="700px" /> 
+Documents not sharing a single word get assigned a similarity value of zero because of the orthogonality of their vectors while documents 
+sharing a similar vocabulary get higher values (up to one in the case of identical documents). Because a query can be considered a short
+document, it is of course possible to create a vector for the query, which can then be used to calculate the cosine similarities between
+the query vector and those of the matching documents. Finally, the similarity values between query and the retrieved documents are used 
+to rank the results.
+
